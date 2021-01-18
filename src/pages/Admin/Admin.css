@@ -1,0 +1,43 @@
+.header-admin-layout {
+  display: flex;
+  align-content: center;
+  flex-direction: row-reverse;
+  padding: 0;
+}
+
+.admin-logo {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-user-avatar:hover {
+  background: lightgray;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.admin-user-avatar {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.content-background {
+  /* background: #f8f8f8; */
+  background: #f0f2f5;
+  padding: 24px;
+  min-height: 360px;
+}
+
+.ant-layout-header {
+  background: white;
+}
+
+.ellipsis-button {
+  border: none;
+  background: white;
+}
+
+.ellipsis-button:hover {
+  background: rgba(0, 0, 0, 0);
+}
